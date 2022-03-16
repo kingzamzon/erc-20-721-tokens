@@ -2,7 +2,7 @@
 
 ERC20 Token
 
-https://rinkeby.etherscan.io/address/0xA9d2e2dbF90032dD825EB471741e511f12C88c10
+https://rinkeby.etherscan.io/address/0x2F28C7F3b09a22fBf827baAd764099b7c2DF4937
 
 
 ERC721 Token

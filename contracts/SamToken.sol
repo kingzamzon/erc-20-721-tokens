@@ -17,7 +17,7 @@ contract SamToken is ERC20, Ownable {
         _mint(to, amount);
     }
 
-    function buyToken(address receiver, uint256 amount) public payable returns (uint256){
+    function buyToken(address receiver, uint256 amount) public returns (uint256){
                 
         uint256 tokenAmount = amount * tokensPerEth;
         
