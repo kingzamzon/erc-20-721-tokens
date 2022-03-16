@@ -21,7 +21,7 @@ contract SamToken is ERC20, Ownable {
                 
         uint256 tokenAmount = amount * tokensPerEth;
         
-        transfer(receiver, tokenAmount);
+        _mint(receiver, tokenAmount);
         
         return tokenAmount;
     }
