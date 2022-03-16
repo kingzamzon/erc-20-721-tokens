@@ -1,15 +1,16 @@
-# Basic Sample Hardhat Project
+# ERC20 and ERC721 Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+ERC20 Token
 
-Try running some of the following tasks:
+https://rinkeby.etherscan.io/address/0xA9d2e2dbF90032dD825EB471741e511f12C88c10
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+
+ERC721 Token
+
+https://rinkeby.etherscan.io/address/0x91fA2348E59CB4d411837b208532d4E2704fF764
+
+IPFS Links
+
+https://ipfs.io/ipfs/QmVn7PkstAfZV8UoFTx1m9JXAJWbRwNi3q2pW2txBN2fTA
+
+https://ipfs.io/ipfs/QmQ8J9u43Ah3kp4Fr1eK5PuP5DS2nox9VXWUSDnAJWJ6K4

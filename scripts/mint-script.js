@@ -4,8 +4,8 @@ async function main() {
     const NFT = await hre.ethers.getContractFactory("SamNFT");
 
     // The IPFS Address of image uploaded to Pinata
-    // const URI = "ipfs://QmVn7PkstAfZV8UoFTx1m9JXAJWbRwNi3q2pW2txBN2fTA"
-    const URI = "ipfs://QmQ8J9u43Ah3kp4Fr1eK5PuP5DS2nox9VXWUSDnAJWJ6K4"
+    // const URI = "https://ipfs.io/ipfs/QmVn7PkstAfZV8UoFTx1m9JXAJWbRwNi3q2pW2txBN2fTA"
+    const URI = "https://ipfs.io/ipfs/QmQ8J9u43Ah3kp4Fr1eK5PuP5DS2nox9VXWUSDnAJWJ6K4"
 
     // Wallet Address
     const WALLET_ADDRESS = "0x"
