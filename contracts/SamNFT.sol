@@ -13,7 +13,15 @@ contract SamNFT is ERC721, Ownable {
 
   Counters.Counter private _tokenIds;
   mapping (uint256 => string) private _tokenURIs;
-  
+
+  struct MetaData {
+    string name;
+    string image;
+    string description;
+  }
+
+  mapping (uint256 => MetaData) public metadata;
+
   constructor() ERC721("SamNFT", "SFT") {
   }
 
@@ -34,12 +42,23 @@ contract SamNFT is ERC721, Ownable {
   //mints a token by taking the metadata passed into the uri, 
 //and associated that metadata with the recipients address.
   //next we assign the uri metadata to the tokenId.
-  function mint(address recipient, string memory uri) public returns (uint256)
+  // next we set Meta Data
+  function mint(address recipient, string memory nft_name, string memory uri, string memory description) public returns (uint256)
   {
     _tokenIds.increment();
     uint256 newItemId = _tokenIds.current();
     _mint(recipient, newItemId);
     _setTokenURI(newItemId, uri);
+
+    setMetaData(newItemId, nft_name, uri, description);
     return newItemId;
   }
+
+  function setMetaData(uint256 _tokenURI, string memory _name, string memory _image, string memory _description) public {        
+        metadata[_tokenURI].name = _name;
+        metadata[_tokenURI].image = _image;
+        metadata[_tokenURI].description = _description;
+        
+    }
+
 }

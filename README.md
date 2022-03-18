@@ -7,7 +7,7 @@ https://rinkeby.etherscan.io/address/0x2F28C7F3b09a22fBf827baAd764099b7c2DF4937
 
 ERC721 Token
 
-https://rinkeby.etherscan.io/address/0x91fA2348E59CB4d411837b208532d4E2704fF764
+https://rinkeby.etherscan.io/address/0xF7Edbea07A9f1372C4ee1bBDbc93033dE2A93D84
 
 IPFS Links
 
